@@ -8,4 +8,9 @@ public class Herbivores extends Creature {
     public void makeMove() {
 
     }
+
+    @Override
+    public String toString() {
+        return " \ud83e\udd84;";
+    }
 }
